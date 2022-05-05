@@ -1,6 +1,7 @@
 # Recommended C style and coding rules
 
 This document describes C code style used by Tilen MAJERLE in his projects and libraries.
+I forked this to design my codes based on this repository recommendations.
 
 ## Table of Contents
 
