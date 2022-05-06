@@ -54,8 +54,8 @@ do {} while(condition)
 
 - Do not use space between function name and opening bracket
 ```c
-int32_t a = sum(4, 3);              /* OK */
-int32_t a = sum (4, 3);             /* Wrong */
+uint32_t a = sum(4, 3);              /* OK */
+uint32_t a = sum (4, 3);             /* Wrong */
 ```
 
 - Never use `__` or `_` prefix for variables/functions/macros/types. This is reserved for C language itself
