@@ -77,9 +77,13 @@ for (i = 0; i < 5; ++i)             /* Wrong */
 ```c
 uint32_t a;
 a = 3 + 4;              /* OK */
+
 for (a = 0; a < 5; ++a) /* OK */
+
 a=3+4;                  /* Wrong */
+
 a = 3+4;                /* Wrong */
+
 for (a=0;a<5;++a)       /* Wrong */
 ```
 
