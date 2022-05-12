@@ -378,7 +378,7 @@ void my_func(void);
 void myfunc(void);
 
 /* Wrong */
-void MYFunc(void);
+void MYFunc(void); /* Do not use UPPER characters in functions */
 void myFunc();
 ```
 
